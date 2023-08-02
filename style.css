@@ -1,0 +1,262 @@
+/* common star  */
+body {
+    margin: 0;
+    padding: 0;
+    font: size 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* common end  */
+/* header start */
+header {
+    padding: 25px 0px;
+}
+
+.content {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 11%;
+    /* border: 2px solid green; */
+    float: left;
+    margin-top: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    /* border: 2px solid fuchsia; */
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 0 58px;
+    padding: 4px 2px 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #626262;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+/* header end */
+/* banner start */
+.banner {}
+
+.b-img {}
+
+.b-img img {
+    width: 100%;
+}
+
+/* banner end */
+/* parfect start */
+.parfect {
+    padding: 100px 0;
+}
+
+.content2 {
+    margin: 0 auto;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+
+.p-content {}
+
+.c-light {
+    margin: 0;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.c-title {
+    margin: 20px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.c-text {
+    font-size: 16px;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+
+/* parfect end */
+/* blog start */
+.blog{
+    padding-bottom: 45px;
+}
+.b-wrapper{
+    overflow: hidden;
+   
+}
+.single-b{
+    margin-bottom: 55px;
+    width: 47%;
+    /* border: 2px solid green; */
+    float: left;
+}
+.single-b:nth-child(even){ 
+    margin-left: 6%;
+}
+.s-img{
+    margin-bottom: 25px;
+}
+.s-img img{
+    width: 100%;
+}
+/* blog end */
+/* news start */
+/* .news{
+    min-height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+/* sign-up start */
+.newslatter{
+    min-height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.newslatter .news-input{
+    background: var(--bg-light);
+    border: navajowhite;
+    border-bottom: 1px solid #626262;
+    border-radius: 0;
+    padding-right:40px;
+    padding-bottom:10px;
+    outline:0px !important;
+    box-shadow: none !important;
+}
+
+.newslatter span[type=button]{
+    background: var(--bg-light);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+.newslatter h1{
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+/* sign-up end */
+
+/* news end */
+/* blog2 start */
+.blog2{
+    padding-top: 100px;
+}
+.load{
+    text-align: center;
+    padding: 100px 0;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .3s;
+}
+.load button:hover{
+    background-color:#626262;
+    color: white;
+
+}
+/* blog2 end */
+/* footer start */
+footer{
+    background-color:#f0f0f0;
+    height: 95px;
+    padding-top: 30px;
+}
+.privecy{
+    /* border: 1px solid red; */
+    float: left;
+    /* width: 20px; */
+    padding-top: 3px;
+}
+.privecy ul{
+
+}
+.privecy ul li{
+    list-style: none;
+}
+.privecy ul li a {
+    color: #626262;
+    text-decoration: none;
+}
+.social{
+    /* border: 1px solid green; */
+    float: right;
+    /* padding: 10px; */
+}
+.social ul{
+     
+}
+.social ul li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+
+}
+.social ul li a{
+    text-decoration: none;
+}
+.social ul li a img{
+    /* margin-left: 5px; */
+
+}
+/* footer end */
